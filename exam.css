@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background: #f4f4f4;
+}
+
+header {
+    background: #f8f1e5;
+    padding: 10px 0;
+    border-bottom: 2px solid #d1b27b;
+}
+
+header .container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 2rem;
+    color: #d76a6a;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+main {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.section {
+    background: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #d76a6a;
+}
+
+.meal-highlights, .dish-carousel, .rewards-menu, .achievement-milestones {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.highlight, .dish, .reward, .achievement {
+    background: #f9f9f9;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 8px;
+    text-align: center;
+    flex: 1 1 calc(33% - 20px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.highlight img, .dish img, .reward img, .achievement img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+footer {
+    background: #f8f1e5;
+    padding: 10px 0;
+    border-top: 2px solid #d1b27b;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    color: #333;
+}
